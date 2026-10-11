@@ -1,0 +1,55 @@
+name: Laporan Bug
+description: Laporkan fitur situs yang error atau tidak berjalan semestinya
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Untuk celah keamanan, jangan pakai form ini. Kirim ke support@compiledaily.net sesuai SECURITY.md.
+  - type: dropdown
+    id: situs
+    attributes:
+      label: Situs
+      options:
+        - compiledaily.net
+        - study.compiledaily.net
+        - command.compiledaily.net
+        - stiker.compiledaily.net
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL halaman
+      placeholder: https://compiledaily.net/artikel/...
+    validations:
+      required: true
+  - type: textarea
+    id: langkah
+    attributes:
+      label: Langkah reproduksi
+      placeholder: |
+        1. Buka halaman artikel
+        2. Login lalu tulis komentar
+        3. Klik Kirim
+    validations:
+      required: true
+  - type: textarea
+    id: harapan
+    attributes:
+      label: Yang seharusnya terjadi
+    validations:
+      required: true
+  - type: textarea
+    id: kenyataan
+    attributes:
+      label: Yang benar-benar terjadi
+      description: Sertakan pesan error atau screenshot bila ada.
+    validations:
+      required: true
+  - type: input
+    id: perangkat
+    attributes:
+      label: Browser dan perangkat
+      placeholder: Chrome 140, Android 15

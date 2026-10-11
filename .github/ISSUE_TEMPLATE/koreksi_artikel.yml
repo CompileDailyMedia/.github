@@ -1,0 +1,37 @@
+name: Koreksi Artikel
+description: Laporkan kesalahan faktual, salah ketik, atau tautan rusak di artikel
+title: "[Koreksi] "
+labels: ["koreksi"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Tautan artikel
+      placeholder: https://compiledaily.net/artikel/...
+    validations:
+      required: true
+  - type: dropdown
+    id: jenis
+    attributes:
+      label: Jenis kesalahan
+      options:
+        - Kesalahan faktual
+        - Salah ketik atau tata bahasa
+        - Tautan atau gambar rusak
+        - Lainnya
+    validations:
+      required: true
+  - type: textarea
+    id: kutipan
+    attributes:
+      label: Bagian yang keliru
+      description: Salin kalimat yang keliru dari artikel.
+    validations:
+      required: true
+  - type: textarea
+    id: perbaikan
+    attributes:
+      label: Seharusnya
+      description: Tulis versi yang benar beserta sumber pendukung bila ada.
+    validations:
+      required: true

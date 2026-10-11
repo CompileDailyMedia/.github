@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Laporan celah keamanan
+    url: https://github.com/CompileDailyMedia/.github/blob/main/SECURITY.md
+    about: Jangan laporkan celah keamanan lewat issue publik. Baca panduannya di sini.
+  - name: Kerja sama dan layanan
+    url: https://compiledaily.net/layanan
+    about: Pembuatan web, aplikasi, SEO, dan desain. Hubungi admin@compiledaily.net.
+  - name: Pertanyaan umum dan tips berita
+    url: mailto:support@compiledaily.net
+    about: Kirim email ke support@compiledaily.net.
