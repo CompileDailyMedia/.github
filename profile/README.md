@@ -46,6 +46,8 @@ Situs dibangun dengan Laravel (PHP 8.3), MySQL/MariaDB, Blade, Tailwind CSS, dan
 - Instagram: [@compiledailynet](https://www.instagram.com/compiledailynet/)
 - TikTok: [@compiledaily](https://www.tiktok.com/@compiledaily)
 
+Mau ikut mendukung operasional CompileDaily? Kirim dukungan lewat [Saweria](https://saweria.co/CompileDaily).
+
 <sub>Kode sumber berlisensi <a href="https://github.com/CompileDailyMedia/.github/blob/main/LICENSE">MIT</a>.
 Isi artikel, materi belajar, logo, dan desain CompileDaily dilindungi hak cipta
 (<a href="https://github.com/CompileDailyMedia/.github/blob/main/CONTENT-LICENSE.md">lisensi konten</a>). Lihat

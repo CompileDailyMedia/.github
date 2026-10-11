@@ -11,6 +11,7 @@ Repository khusus organisasi **CompileDailyMedia**. Isinya dipakai GitHub secara
 | `SUPPORT.md` | Ke mana harus bertanya atau minta bantuan |
 | `ISSUE_TEMPLATE/` | Template issue default |
 | `PULL_REQUEST_TEMPLATE.md` | Template pull request default |
+| `FUNDING.yml` | Tombol Sponsor yang mengarah ke Saweria CompileDaily |
 | `LICENSE` | Lisensi kode sumber — MIT License |
 | `CONTENT-LICENSE.md` | Artikel, materi belajar, logo, dan desain — hak cipta dilindungi |
 
